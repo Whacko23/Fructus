@@ -61,5 +61,6 @@ struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
         FruitCardView(fruit: fruitsData[1])
             .previewLayout(.fixed(width: 320, height: 640))
+            .previewDevice("iPhone 11")
     }
 }

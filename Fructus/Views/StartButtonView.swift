@@ -40,6 +40,7 @@ struct StartButtonView_Previews: PreviewProvider {
         StartButtonView()
             .preferredColorScheme(.dark)
             .previewLayout(.sizeThatFits)
+            .previewDevice("iPhone 11")
         }
     }
 }
