@@ -41,11 +41,15 @@ struct FruitDetailView: View {
                             .multilineTextAlignment(.leading)
                         
                         //Link
+                        SourcesLinkView()
+                            .padding(.top, 10)
+                            .padding(.bottom, 40)
                         
                     }//:Vstack
                     .padding(.horizontal, 20 )
                     .frame(maxWidth: 640, alignment: .center)
                 }//:Vstack
+                .navigationBarHidden(true)
             }//:Scroll
             .edgesIgnoringSafeArea(.top)
         }//:Navigation
