@@ -9,16 +9,24 @@ import SwiftUI
 
 struct SettingsView: View {
 //    Mark - Settings
-    
+    @Environment(\.presentationMode) var presentationMode
 //    Mark - Body
     
     var body: some View {
         NavigationView{
-            ScrollView(.vertical){
+            ScrollView(.vertical, showsIndicators: false){
                 VStack(spacing: 20) {
                     Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                 }//: Vstack
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
+                .navigationBarItems(trailing:
+                                        Button(action: {
+                    presentationMode.wrappedValue.dismiss()
+                }) {
+                    Image(systemName: "xmark")
+                }
+            )
+                
                 .padding()
             }//: Scroll
         }//: Navigation
@@ -30,6 +38,7 @@ struct SettingsView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
+            .preferredColorScheme(.dark)
             .previewDevice("iPhone 11")
     }
 }
