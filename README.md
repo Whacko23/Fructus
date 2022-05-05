@@ -9,10 +9,13 @@ The app provides nutritional value of fruits (per 100g) such as energy, sugar co
 
 ## Documentation
 
-[Documentation](#documentation)
-[Features](#features)
-[Demo](#demo)
-[Screenshots](#screenshots)
+- [Documentation](#documentation)
+- [Features](#features)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Authors](#authors)
+- [Links](#-links)
+- [Feedback](#feedback)
 
 
 ## Features
