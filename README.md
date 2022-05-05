@@ -44,7 +44,7 @@ Onboarding Screen is a welcome screen for users to give context of the app as we
 <span style="white-space:nowrap;border:20px">
 <img src="Fructus/githubAssets/lightList.PNG" width = "200" > 
 </span>
-
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 <span style="white-space:nowrap;">
 <img src="Fructus/githubAssets/darkListView.PNG" width = "200" > 
 </span><br>
@@ -54,6 +54,7 @@ Fruit List View displays the list of all the apps.
 <span style="display:inline-block;">
 <img src="Fructus/githubAssets/lightDetails.PNG" width = "200" >
 </span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 <span style="display:inline-block;">
 <img src="Fructus/githubAssets/darkDetails.PNG" width = "200" > 
 </span>
