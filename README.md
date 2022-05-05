@@ -71,7 +71,7 @@ The settings view has a toggle to restart the application. It also displays the 
 
 ## 🔗 Links
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/rajanish-karki-b91002210)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajanish-karki-b91002210)
 
 
 
